@@ -31,33 +31,31 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
   return str; 
-
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return x + y; 
-  
+  return x + y;  
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return x - y    
+  return x - y;    
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x * y
+  return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x / y 
+  return x / y;
 }
 
 function sonIguales(x, y) {
@@ -106,7 +104,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if( num % 2 === 0){ 
+  if( num % 2 === 0) { 
     return true;
   } else {
     return false;
@@ -117,7 +115,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num % 2 === 1){
+  if(num % 2 === 1) {
     return true;
   } else {
     return false;
@@ -152,8 +150,9 @@ function redondearNumero(num) {
   //   return entero + 1;
   // } else {
   //return entero;
-  }
+  // }
   return Math.round (num);
+}
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
@@ -164,7 +163,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  returnmath.random();
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -172,14 +171,14 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero === 0){
+  if(numero === 0) {
     return false;
   }
   else if(numero > 0){
-    return "es positivo";
+    return "Es positivo";
   }
   else {
-    return "es negativo";
+    return "Es negativo";
   }
 }
 
@@ -202,7 +201,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'hola' + nombre +'!';
+  return 'Hola ' + nombre +'!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -241,12 +240,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.lenght > 1){
-    return "dato incorrecto"
+    return "Dato incorrecto"
   }
   if(letra ==="a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
-    return "es vocal"
+    return "Es vocal"
   }
-  return "dato incorrecto"
+  return "Dato incorrecto"
 }
 
 
